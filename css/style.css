@@ -1,0 +1,474 @@
+/*All page styling*/
+body{
+  text-align: center;
+  background-color: #caebf2;
+  color: #5d5d5d;
+ }
+
+h1 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding-bottom: 1em;
+}
+
+li, h2{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 14px;
+}
+
+a{
+  text-decoration: none;
+}
+
+ p{
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+ul, li{
+  text-align: center;
+  list-style: none;
+  margin: 0 auto;
+  padding: 0 1em; 
+}
+
+/*header style*/
+header{
+  margin: 0 auto;
+}
+
+/*name styling*/
+.student__large{
+  font-size: 1.5em;
+  padding-bottom: .5em;
+  color:#565656;
+  display: block;
+  text-align: center;
+}
+/*End name styling*/
+
+
+/*Nav styling*/
+.topnav{
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 600;
+}
+
+.topnav li {
+  display: inline-block;
+  width: 95%;
+  text-align: center;
+  text-decoration: none;
+  color: #ff3b3f;
+  margin: .125em 0;
+  padding: .2em 0;
+  background-color: white;
+  font-weight: 600;
+}
+
+nav a:link {
+  color: #ff3b3f;
+}
+
+nav a:visited {
+  color: #34b2cd;
+}
+
+nav a:hover {
+  color: #FF3b3F;
+  text-shadow: 1px 5px #d5d5d5;
+}
+
+nav a:active {
+  color: #78ccde;
+  text-shadow: none;
+}
+  /*End nav styling*/
+/*end header style*/
+
+
+/*Profile styling*/
+.profile{
+  padding-top: 2em;
+  clear: both;
+}
+
+.profile img{
+  max-width: 70%;
+}
+
+.profile p{
+  padding: 1.5em 0;
+  max-width: 90%;
+  margin: 0 auto;
+}
+/*End Profile Styling*/
+
+
+/*Project Type styling*/
+.miscellany {
+  background-color: white;
+  padding: 1em;
+  margin: 0 auto;
+} 
+
+#portfolio{
+  padding: 1.5em 0;
+}
+
+.miscellany img{
+  max-width: 100%;
+  margin-top: 2em;
+}
+/*End Project Type styling*/
+
+
+/*Skills styling*/
+.skills{
+  padding: 3em 0;
+  background-color: #545454;
+  color: white;
+  }
+
+.skills a{
+  color: white;
+}
+.skills p{
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+/*End skills styling*/
+
+
+/*Footer styling*/
+
+.contact{
+  margin: 2em 0;
+  padding: 1em 1em;
+ }
+
+span{
+  font-weight:600;
+}
+
+.mobile__nav li{
+ 
+  display: inline-block;
+  padding-bottom: 1em;
+}
+
+
+.student{
+  float: left;
+  color: #545454;
+}
+
+.student li{
+  margin: 0;
+}
+.footer__student{
+  display: none;
+}
+
+.direct{
+  float: right;
+ }
+
+.direct a{
+  color: #545454;
+}
+
+.tabletplus__nav{
+  display: none;
+}
+
+.student, .direct{
+  padding-left: 0;
+  padding-right: 0;
+}
+/*End footer styling*/
+
+
+/*768 Media Query Styling*/
+@media screen and (min-width: 768px) {
+  
+  .container{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  .topnav{
+  padding: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+  .topnav li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #ff3b3f;
+    padding: 0 .25em;
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  nav a:link {
+    color: #ff3b3f;
+  }
+
+  nav a:visited {
+    color: #34b2cd;
+  }
+
+  nav a:hover {
+    color: #FF3b3F;
+    text-shadow: 1px 5px #d5d5d5;
+  }
+
+  nav a:active {
+    color: #78ccde;
+    text-shadow: none;
+  }
+  /*End nav styling 768*/
+
+
+  /*Profile styling 768*/
+  .profile{
+    padding-top: 2em; 
+  }
+
+  .profile img{
+    max-width: 45%;
+    float: right;
+    padding: 0 1em 3em;
+  }
+
+  .profile p{
+    text-align: left;
+    max-width: 50%;
+    margin: 0;
+   }
+  /*End Profile Styling 768*/  
+
+  #portfolio{
+    padding: 1.5em 0;
+    clear: both;
+   }
+
+    
+  /*Project Type styling 768*/
+  .miscellany {
+    margin: 0 auto;
+    display: inline-block;
+    background-color: white;
+    clear: both;
+  } 
+
+  .miscellany img{
+    max-width: 96%;
+    }
+
+  .miscellany__proj{
+    display: inline-block;
+    max-width: 50%;
+    float: left;
+    padding-bottom: 2em;
+  }
+  
+  .miscellany__proj p{
+    max-width: 75%;
+    margin:0 auto;
+  }
+/*End Project Type styling 768*/  
+  
+   .skills{
+    clear: both;
+    padding: 3em 0;
+    background-color: #545454;
+    color: white;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .skills p{
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+/*end skills styling 768*/  
+
+/*Footer styling 768*/  
+  .phone{
+    padding: 1.5em 0;
+  }
+  
+  .footer__student, .bottomnav{
+    font-size: 13px;
+  }
+  
+  .footer__student{
+    display: inline-block;
+    float: left;
+    font-weight: 600;
+    margin-top: 1em; 
+  }
+  
+  .mobile__nav li{
+    display: none; 
+  }
+  
+  .tabletplus__nav{
+    display:inline-block;
+    float: right;
+    margin-top: 1em;
+  }
+
+  .end__footer{
+    padding-bottom: 4em;
+  }
+  
+  .bottomnav{
+    display: inline;
+    padding: 0 .5em;
+    font-weight: 600;
+  }
+  
+  .bottomnav a:link {
+    color: #545454;
+  }
+
+  .bottomnav a:visited {
+    color: #545454;
+  }
+
+  .bottomnav a:hover {
+    color: #545454;
+    text-shadow: none;
+  }
+
+  .bottomnav a:active {
+    color: #545454;
+    text-shadow: none;
+  }
+
+} /*end of 768 query 768*/
+
+/*Start 1024 query*/
+@media screen and (min-width: 1024px) {
+ 
+  /*name styling*/
+  .student__large{
+    margin-Left: 1em;
+    font-size: 2em;
+    padding-bottom: .5em;
+    color:#565656;
+    display: inline-block;
+    text-align: left;
+    float: left;
+  }
+  /*End name styling 1024*/
+  
+  
+  /*Start Nav styling 1024*/  
+   .topnav{
+    margin-right: 10px;
+    margin-top: 2em;
+    width: 50%;
+    float: right;
+    text-align: right;
+    font-weight: 600;
+  }
+
+  .topnav li {
+    display: inline;
+    text-align: center;
+    text-decoration: none;
+    color: #ff3b3f;
+    padding: .2em 0;
+    background-color: transparent;
+    font-weight: 600;
+  }
+
+  nav a:link {
+    color: #ff3b3f;
+  }
+
+  nav a:visited {
+    color: #34b2cd;
+  }
+
+  nav a:hover {
+    color: #FF3b3F;
+    text-shadow: 1px 5px #d5d5d5;
+  }
+
+  nav a:active {
+    color: #78ccde;
+    text-shadow: none;
+  }
+  /*End nav styling 1024*/
+
+    /*Profile styling 1024*/
+  .profile{
+    padding-top: 2em; 
+  }
+
+  .profile img{
+    max-width: 100%;
+    float: right;
+    padding: 0 0 3em 0;
+  }
+
+  .profile p{
+    font-size: 20px;
+    float: left;
+    text-align: left;
+    padding: 0 1em;
+    max-width: 50%;
+    margin: 0 auto;
+    vertical-align: top;
+  }
+  /*End Profile Styling 1024*/ 
+
+  
+ 
+  #portfolio{
+    padding: 1.5em 0;
+    clear: both;
+   }
+
+  
+
+  /*Project Type styling 1024*/
+  .miscellany {
+    max-width: 100%;
+    display: inline;
+    background-color: white;
+    clear: both;
+  } 
+
+  .miscellany img{
+    max-width: 100%;
+    }
+
+    .miscellany__proj{
+      display: inline-block;
+      max-width: 31%;
+      padding: 0 .5em 2em .5em;
+    }
+
+    .miscellany__proj p{
+      max-width: 75%;
+      margin:0 auto;
+  }
+/*End Project Type styling 1024*/ 
+ 
+}
