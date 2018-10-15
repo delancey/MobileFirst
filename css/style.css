@@ -159,15 +159,19 @@ span{
   font-weight:600;
 }
 
+
+
 .mobile__nav li{
- 
   display: inline-block;
   padding-bottom: 1em;
+  
 }
 
 
 .student{
-  float: left;
+  position: relative;
+  bottom: 0;
+  left: -40px;
   color: #545454;
 }
 
@@ -179,7 +183,8 @@ span{
 }
 
 .direct{
-  float: right;
+  position: relative;
+  right: -40px;
  }
 
 .direct a{
@@ -256,11 +261,14 @@ span{
     max-width: 50%;
     margin: 0;
    }
+  
+  .profile:after{
+    clear: both;
+  }
   /*End Profile Styling 768*/  
 
   #portfolio{
     padding: 1.5em 0;
-    clear: both;
    }
 
     
@@ -306,6 +314,12 @@ span{
 /*end skills styling 768*/  
 
 /*Footer styling 768*/  
+  
+  .endref p{
+    font-size: 18px;
+    max-width: 70%;
+    margin: 0 auto;
+  }
   .phone{
     padding: 1.5em 0;
   }
@@ -318,7 +332,8 @@ span{
     display: inline-block;
     float: left;
     font-weight: 600;
-    margin-top: 1em; 
+    padding-top: .5em;;
+    
   }
   
   .mobile__nav li{
@@ -382,7 +397,9 @@ span{
     margin-right: 10px;
     margin-top: 2em;
     width: 50%;
-    float: right;
+    position: relative;
+    right: 0;
+    top: 35px;
     text-align: right;
     font-weight: 600;
   }
@@ -442,17 +459,14 @@ span{
  
   #portfolio{
     padding: 1.5em 0;
-    clear: both;
    }
-
   
 
   /*Project Type styling 1024*/
   .miscellany {
     max-width: 100%;
-    display: inline;
+    display: inline-block;
     background-color: white;
-    clear: both;
   } 
 
   .miscellany img{
